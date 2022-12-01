@@ -145,7 +145,11 @@ public class SalterSmoother {
 		 * looks really rough. This way lacks points but produces and better answer
 		 */
 		for (int i = 0; i < length - 10; i++) {
-			// mean variable, mean is from i to 10 intervals above
+		/**
+		 * This code statment is from the appache website
+		 * it finds the mean of the 10 clost points in the double array
+		 * i linked the webiste in one of the above comment blocks 
+		 */
 			double mean = StatUtils.mean(ysmoothed, i, 10);
 			// added the values to my smoothed values variable
 			Smoothedvalues.add(SaltedDataset.getSeries(0).getX(i), mean);
