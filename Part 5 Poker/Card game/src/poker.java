@@ -51,7 +51,6 @@ public class poker extends deck {
 				nums.add(var[0]);
 				tempnums.add(var[0]);
 			}
-			System.out.println(river);
 			// print statement to see the river commented out for now
 			// System.out.println(river);
 
